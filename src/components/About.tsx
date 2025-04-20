@@ -46,9 +46,9 @@ const About: React.FC = () => {
                 <p className="text-white/70">English, Italian, Urdu</p>
               </div>
             </div>
-            <button className="border-2 border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded font-medium hover:bg-[#D4AF37] hover:text-black transition-colors duration-300">
+            {/* <button className="border-2 border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded font-medium hover:bg-[#D4AF37] hover:text-black transition-colors duration-300">
               <a href="images\CV-Shan Ali (5).pdf"  target="_blank" rel="noopener noreferrer" title='Shan CV'> Download CV</a>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
