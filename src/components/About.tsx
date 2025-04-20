@@ -1,6 +1,9 @@
 import React, { useRef } from 'react';
 import { useInView } from '../hooks/useInView';
 
+import cv from "../../asset/CV-Shan Ali (5).pdf"
+import img from "../../asset/logo.jpg"
+
 const About: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(sectionRef, { threshold: 0.1 });
@@ -15,7 +18,7 @@ const About: React.FC = () => {
           <div className="lg:w-1/2">
             <div className="relative">
               <img 
-                src="images\logo.jpg" 
+                src={img} 
                 alt="Law professional" 
                 className="rounded-lg shadow-2xl w-full object-cover"
                 style={{ height: '500px' }}
@@ -49,6 +52,11 @@ const About: React.FC = () => {
             {/* <button className="border-2 border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded font-medium hover:bg-[#D4AF37] hover:text-black transition-colors duration-300">
               <a href="images\CV-Shan Ali (5).pdf"  target="_blank" rel="noopener noreferrer" title='Shan CV'> Download CV</a>
             </button> */}
+
+            <button className="border-2 border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded font-medium hover:bg-[#D4AF37] hover:text-black transition-colors duration-300">
+              <a href={cv}  target="_blank" rel="noopener noreferrer" title='Shan CV'> Download CV</a>
+            </button>
+
           </div>
         </div>
       </div>
