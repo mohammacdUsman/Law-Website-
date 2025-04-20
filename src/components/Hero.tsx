@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
         </p>
         <div className="mt-8 opacity-0 animate-fadeIn animation-delay-500">
           <button className="bg-[#D4AF37] text-black px-6 py-3 rounded font-medium hover:bg-[#B8860B] transition-colors duration-300">
-            View Credentials
+            <a href="./">View Awards</a>
           </button>
         </div>
       </div>

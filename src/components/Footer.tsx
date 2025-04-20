@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpenText, Github, Linkedin, Twitter } from 'lucide-react';
+import { BookOpenText, Facebook, Linkedin, Twitter, Instagram } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-6 md:mb-0">
             <BookOpenText className="h-8 w-8 text-[#D4AF37]" />
-            <span className="ml-2 text-[#D4AF37] font-serif text-xl font-bold">John Doe</span>
+            <span className="ml-2 text-[#D4AF37] font-serif text-xl font-bold">Shan Ali</span>
           </div>
           
           <div className="flex space-x-6 mb-6 md:mb-0">
@@ -19,14 +19,17 @@ const Footer: React.FC = () => {
               <Twitter size={20} />
             </a>
             <a href="#" className="text-white hover:text-[#D4AF37] transition-colors">
-              <Github size={20} />
+              <Facebook size={20} />
+            </a>
+            <a href="#" className="text-white hover:text-[#D4AF37] transition-colors">
+              <Instagram size={20} />
             </a>
           </div>
         </div>
         
         <div className="mt-8 border-t border-gray-800 pt-8 text-center">
           <p className="text-white/60 text-sm">
-            &copy; {new Date().getFullYear()} John Doe. All rights reserved.
+            &copy; {new Date().getFullYear()} Shan ali. All rights reserved.
           </p>
         </div>
       </div>

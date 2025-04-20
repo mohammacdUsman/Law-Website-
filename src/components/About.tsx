@@ -15,7 +15,7 @@ const About: React.FC = () => {
           <div className="lg:w-1/2">
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/3771097/pexels-photo-3771097.jpeg" 
+                src="images\logo.jpg" 
                 alt="Law professional" 
                 className="rounded-lg shadow-2xl w-full object-cover"
                 style={{ height: '500px' }}
@@ -28,7 +28,7 @@ const About: React.FC = () => {
           
           <div className="lg:w-1/2">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">
-              About <span className="text-[#D4AF37]">Me</span>
+              Weclome to <span className="text-[#D4AF37]">Shan Ali Website</span>
             </h2>
             <p className="text-white/80 mb-4 leading-relaxed">
               I am a dedicated legal scholar with a passion for exploring the intersection of law and technology. My academic journey has taken me across multiple countries, providing me with a global perspective on legal systems.
@@ -43,11 +43,11 @@ const About: React.FC = () => {
               </div>
               <div className="bg-black/50 p-4 rounded-lg border border-[#D4AF37]/20">
                 <h3 className="text-[#D4AF37] text-lg font-medium mb-2">Languages</h3>
-                <p className="text-white/70">English, Italian</p>
+                <p className="text-white/70">English, Italian, Urdu</p>
               </div>
             </div>
             <button className="border-2 border-[#D4AF37] text-[#D4AF37] px-6 py-3 rounded font-medium hover:bg-[#D4AF37] hover:text-black transition-colors duration-300">
-              Download CV
+              <a href="images\CV-Shan Ali (5).pdf"  target="_blank" rel="noopener noreferrer" title='Shan CV'> Download CV</a>
             </button>
           </div>
         </div>
