@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center">
             <BookOpenText className="h-8 w-8 text-[#D4AF37]" />
-            <span className="ml-2 text-[#D4AF37] font-serif text-xl font-bold">John Doe</span>
+            <span className="ml-2 text-[#D4AF37] font-serif text-xl font-bold">Shan Ali</span>
           </div>
           <nav className="hidden md:block">
             <ul className="flex space-x-8">
